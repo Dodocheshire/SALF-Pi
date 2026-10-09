@@ -1,0 +1,28 @@
+{
+  "correct": 37780,
+  "n": 50000,
+  "accuracy": 0.7556,
+  "top5": 0.91634,
+  "nll": 1.0860202151298524,
+  "nec_gt_1e5": 29.742,
+  "concepts": 4741,
+  "protocol": {
+    "source_sha256": "64bc771abe1565adff5182735e3d74cd845c7eeab2a19839b81494e226392085",
+    "classes_sha256": "624954f06d059ddd477ab500dc059cf2628ac01e441d8a648d1dc6fbfe504c5a",
+    "checkpoint_sha256": {
+      "b_g.pt": "d16d71389e6fd6fd7d701552808d3753d04df51fc863e43220ac9bceb4d2270f",
+      "W_g.pt": "083d1d02fd193bdaa127160e7b895c415ba04c562e18ac4224a2d2ab4b1cadb7",
+      "concepts.txt": "b1e93cf2b8a00b93cd4819725d040e8cfb9c4182888f408d136df5f1113bc4f5",
+      "W_c.pt": "7de1369399d0ac685c99cdb9db50a3eed70a76e8d2ac27355924af921584be53",
+      "proj_mean.pt": "6d9bffd8f7d22e4b63dd464483d4dd1ca110d47c4fdab02528d35ef0ed2ef9c2",
+      "proj_std.pt": "8a029f60e051e0ce87e0635e3b22fac95c2052076a5bdcd3ccb3c195822c8f92"
+    },
+    "preprocess": "official SALF Resize(short side 224), CenterCrop224, ImageNet normalization",
+    "batch_size": 64,
+    "n": 50000,
+    "training": false,
+    "selection": false,
+    "classification": "all 1000 released classes, not a 200-class remapping"
+  },
+  "limits": "Released pretrained checkpoint reproduction with upstream preprocessing; no new noise training and no concept/background ground-truth audit."
+}

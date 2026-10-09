@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "upstream_commit": "e45f8645afde37a8a7ae66db6987b5a8a53552a0",
+  "checkpoint_sha256": {
+    "b_g.pt": "d16d71389e6fd6fd7d701552808d3753d04df51fc863e43220ac9bceb4d2270f",
+    "W_g.pt": "083d1d02fd193bdaa127160e7b895c415ba04c562e18ac4224a2d2ab4b1cadb7",
+    "concepts.txt": "b1e93cf2b8a00b93cd4819725d040e8cfb9c4182888f408d136df5f1113bc4f5",
+    "W_c.pt": "7de1369399d0ac685c99cdb9db50a3eed70a76e8d2ac27355924af921584be53",
+    "proj_mean.pt": "6d9bffd8f7d22e4b63dd464483d4dd1ca110d47c4fdab02528d35ef0ed2ef9c2",
+    "proj_std.pt": "8a029f60e051e0ce87e0635e3b22fac95c2052076a5bdcd3ccb3c195822c8f92"
+  },
+  "official_parity_max_abs": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "batch1_shape": [
+    1,
+    1000
+  ],
+  "spatial_shape": [
+    4,
+    2048,
+    7,
+    7
+  ],
+  "concept_map_shape": [
+    4,
+    4741,
+    12,
+    12
+  ],
+  "generator_grad_norms": {
+    "encoder.weight": 0.0,
+    "encoder.bias": 0.0,
+    "context.weight": 0.0,
+    "mean_head.weight": 0.367510586977005,
+    "mean_head.bias": 0.17523327469825745,
+    "scale_head.weight": 0.003913158550858498,
+    "scale_head.bias": 0.0008846113923937082
+  },
+  "fixed_test_indices": [
+    0,
+    50,
+    500,
+    5000
+  ],
+  "trained_noise": false,
+  "accuracy_evaluated": false,
+  "limits": "Four-image implementation/gradient smoke only. Smoke feature scale uses these images; it must not be reused for scientific training/evaluation.",
+  "source_sha256": "09fd6df393a5057f84bc8e4ff297405a96db8a217241136836aa481a82288f73",
+  "torch_version": "2.11.0+cu128"
+}

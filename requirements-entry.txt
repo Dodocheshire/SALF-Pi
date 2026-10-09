@@ -1,0 +1,8 @@
+# Verified using the existing pi-cbm environment; this is not the upstream demo lock.
+torch>=2.2
+torchvision>=0.17
+transformers>=4
+gdown
+Pillow
+numpy
+matplotlib
